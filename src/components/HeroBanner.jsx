@@ -12,24 +12,32 @@ function HeroBanner() {
       <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-4 py-12 sm:px-6 sm:py-16 lg:grid-cols-2 lg:gap-16 lg:px-8 lg:py-20">
         <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
           <span className="mb-4 inline-block rounded-full bg-white/10 px-4 py-1.5 text-sm font-medium tracking-wide backdrop-blur-sm">
-            Agile Collaboration Platform
+            Vancouver Community Network
           </span>
 
           <h1 className="max-w-xl text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-            Work smarter together, deliver faster
+            The Internet should be accessible to all
           </h1>
 
           <div className="mt-6 flex flex-col gap-4 sm:flex-row sm:gap-6">
-            <Button href="#services">Explore Our Services</Button>
+            <Button href="#services">Discover Our Services</Button>
             <Button href="#contact" variant="secondary">
-              Get Started Free
+              Get Connected
             </Button>
           </div>
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-brand-100 sm:text-xl">
-            Agile Collab helps teams plan sprints, track progress, and ship
-            products with clarity — all in one responsive workspace built for
-            modern teams.
+            Vancouver Community Network (VCN) is a non-profit Internet service
+            provider that provides free services to assist individuals, community
+            groups and non-profit organizations in accessing and utilizing the
+            Internet to its fullest ability. We believe the information, resources
+            and opportunities on the Internet should be accessible to all! 
+          </p>
+
+          <p className="mt-6 max-w-xl text-lg leading-relaxed text-brand-100 sm:text-xl">
+            We work to expand public access to computers and the Internet, provide
+            educational services for their effective use and promote local content
+            on the web.
           </p>
         </div>
 
